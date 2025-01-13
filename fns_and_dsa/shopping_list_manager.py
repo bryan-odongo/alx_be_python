@@ -19,7 +19,7 @@ def main():
 
         if choice == '1':
             # Add an item to the list
-            item = input("Enter the name of the item to add: ").strip()
+            item = input("Enter the item to add: ").strip()  # Match the expected prompt
             if item:
                 shopping_list.append(item)
                 print(f"'{item}' has been added to your shopping list.")
